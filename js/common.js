@@ -2,7 +2,10 @@ var COMMON = {
     changeHref: function (_href) {
         window.location.href = _href;
     },
-    hideMe: function (me) {
-        me.style.display = 'none';
+    hideShadow: function () {
+        document.querySelector('.hidden').style.display = 'none';
+    },
+    showShadow: function () {
+        document.querySelector('.hidden').style.display = 'block';
     }
 };
