@@ -43,7 +43,6 @@ body {
     width: 96%;
     min-width: 150px;
     background: #000;
-    opacity: 0.8;
     height: 30px;
     color: #fff;
     line-height: 30px;
@@ -82,6 +81,46 @@ body {
     left: 21%;
     width: 57.5%;
     height: 10%;
+}
+
+@keyframes loginUpSmall {
+    from {
+        top: 100%;
+    }
+
+    to {
+        top: 50%;
+    }
+}
+
+@-webkit-keyframes loginUpSmall{
+    from {
+        top: 100%;
+    }
+
+    to {
+        top: 50%;
+    }
+}
+
+@keyframes loginDownSmall {
+    from {
+        top: 50%;
+    }
+
+    to {
+        top: 100%;
+    }
+}
+
+@-webkit-keyframes loginDownSmall {
+    from {
+        top: 50%;
+    }
+
+    to {
+        top: 100%;
+    }
 }
 
 @keyframes loginUp {
@@ -267,6 +306,22 @@ body {
 /*================================================================================*/
 
 @media screen and (min-width: 320px) and (max-width: 360px) {
+    .login_div {
+        height: 50%;
+    }
+    .login-up {
+        animation: loginUpSmall 500ms;
+        -webkit-animation: loginUpSmall 500ms;
+        animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
+    }
+
+    .login-down {
+        animation: loginDownSmall 500ms;
+        -webkit-animation: loginDownSmall 500ms;
+        animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
+    }
 }
 
 @media screen and (min-width: 360px) and (max-width: 414px) {
