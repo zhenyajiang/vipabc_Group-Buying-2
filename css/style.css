@@ -94,7 +94,27 @@ body {
     }
 }
 
+@-webkit-keyframes loginUp{
+    from {
+        top: 100%;
+    }
+
+    to {
+        top: 60%;
+    }
+}
+
 @keyframes loginDown {
+    from {
+        top: 60%;
+    }
+
+    to {
+        top: 100%;
+    }
+}
+
+@-webkit-keyframes loginDown {
     from {
         top: 60%;
     }
@@ -114,7 +134,27 @@ body {
     }
 }
 
+@-webkit-keyframes loginUpHigh {
+    from {
+        top: 100%;
+    }
+
+    to {
+        top: 20%;
+    }
+}
+
 @keyframes loginDownHigh {
+    from {
+        top: 20%;
+    }
+
+    to {
+        top: 100%;
+    }
+}
+
+@-webkit-keyframes loginDownHigh {
     from {
         top: 20%;
     }
@@ -147,11 +187,15 @@ body {
 .login-up {
     animation: loginUp 500ms;
     animation-fill-mode: forwards;
+    -webkit-animation: loginUp 500ms;
+    -webkit-animation-fill-mode: forwards;
 }
 
 .login-down {
     animation: loginDown 500ms;
     animation-fill-mode: forwards;
+    -webkit-animation: loginDown 500ms;
+    -webkit-animation-fill-mode: forwards;
 }
 
 .login_font {
@@ -237,12 +281,16 @@ body {
     }
     .login-up {
         animation: loginUpHigh 500ms;
+        -webkit-animation: loginUpHigh 500ms;
         animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
     }
 
     .login-down {
         animation: loginDownHigh 500ms;
+        -webkit-animation: loginUpHigh 500ms;
         animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
     }
 }
 
@@ -252,12 +300,16 @@ body {
     }
     .login-up {
         animation: loginUpHigh 500ms;
+        -webkit-animation: loginUpHigh 500ms;
         animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
     }
 
     .login-down {
         animation: loginDownHigh 500ms;
+        -webkit-animation: loginUpHigh 500ms;
         animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
     }
 }
 
