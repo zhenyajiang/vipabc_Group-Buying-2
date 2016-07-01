@@ -288,7 +288,7 @@ body {
 
     .login-down {
         animation: loginDownHigh 500ms;
-        -webkit-animation: loginUpHigh 500ms;
+        -webkit-animation: loginDownHigh 500ms;
         animation-fill-mode: forwards;
         -webkit-animation-fill-mode: forwards;
     }
@@ -307,7 +307,7 @@ body {
 
     .login-down {
         animation: loginDownHigh 500ms;
-        -webkit-animation: loginUpHigh 500ms;
+        -webkit-animation: loginDownHigh 500ms;
         animation-fill-mode: forwards;
         -webkit-animation-fill-mode: forwards;
     }
