@@ -12,7 +12,7 @@ var COMMON = {
         duration = isNaN(duration) ? 2000 : duration;
         var m = document.createElement('div');
         m.innerHTML = msg;
-        m.setAttribute('class', 'toastDivWhite');
+        m.setAttribute('class', 'toastDiv');
         document.body.appendChild(m);
         setTimeout(function () {
             var d = 0.5;
