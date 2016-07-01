@@ -9,7 +9,62 @@
 </head>
 <body>
 <div class="content">
+    <div class="container">
+        <img src="../images/index.jpg" class="img">
 
+        <div class="login_btn" onclick="login()"></div>
+    </div>
+
+    <!-- 遮盖层 -->
+    <div class="hidden">
+    </div>
+
+    <!-- 登录div -->
+    <div class="login_div" id="login_div">
+        <img src="../images/x.png" class="close" onclick="cancelLogin()">
+        <!--<p class="close" onclick="cancelLogin()">&nbsp;&nbsp;X&nbsp;&nbsp;</p>-->
+
+        <p class="login_font">请登录后邀请好友</p>
+
+        <div class="input-div">
+            <label for="acct" class="label-long">账 号:</label>
+            <input type="email" id="acct" class="input-long" onblur="COMMON.checkMail('acct')"/>
+        </div>
+
+        <div class="input-div">
+            <label for="acct" class="label-long">密 码:</label>
+            <input type="password" id="passwd" class="input-long" onblur="COMMON.checkPwd('passwd')"/>
+        </div>
+
+        <button class="login-btn" onclick="doLogin()">登&nbsp;&nbsp;&nbsp;&nbsp;录</button>
+    </div>
 </div>
+<script type="application/javascript" src="../js/jquery.min.js"></script>
+<script type="application/javascript" src="../js/common.js"></script>
+<script type="application/javascript">
+    function login() {
+        $('.hidden').fadeIn(500);
+        var dd = $('#login_div');
+        if (dd.hasClass('login-down')) {
+            dd.removeClass('login-down');
+        }
+        dd.addClass('login-up');
+    }
+
+    function cancelLogin() {
+        $('.hidden').fadeOut(500);
+        var dd = $('#login_div');
+        if (dd.hasClass('login-up')) {
+            dd.removeClass('login-up');
+        }
+        dd.addClass('login-down');
+    }
+
+    function doLogin() {
+        if (COMMON.checkMail('acct') && COMMON.checkPwd('passwd')) {
+            COMMON.changeHref('success.html');
+        }
+    }
+</script>
 </body>
 </html>
