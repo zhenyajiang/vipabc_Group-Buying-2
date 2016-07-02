@@ -321,10 +321,74 @@ body {
         animation-fill-mode: forwards;
         -webkit-animation-fill-mode: forwards;
     }
+
+    .inner-div-final {
+        top: 16.5%;
+        margin-left: 7.5%;
+        border-width: 5px;
+        height: 54.1%;
+    }
+    .p-title {
+        top: 19.5%;
+        font-size: 20px;
+        height: 8%;
+    }
+    .text-context1 {
+        top: 39%;
+        font-size: 13px;
+    }
+    .logoSet{
+        height: 10.2%;
+        width: 15.3%;
+        margin-left: 43%;
+        top: 5.5%;
+    }
 }
 @media screen and (min-width: 360px) and (max-width: 414px) {
+    .inner-div-final {
+        top: 16.5%;
+        margin-left: 8%;
+        border-width: 5px;
+        height: 54.1%;
+    }
+    .p-title {
+        top: 19.5%;
+        font-size: 23px;
+        height: 8%;
+    }
+    .text-context1 {
+        top: 39%;
+        font-size: 18px;
+    }
+    .logoSet{
+        height: 9%;
+        width: 15.3%;
+        margin-left: 43%;
+        top: 5.5%;
+    }
 }
 @media screen and (min-width: 414px) and (max-width: 550px) {
+    .inner-div-final {
+        top: 16.5%;
+        margin-left: 8%;
+        border-width: 5px;
+        height: 54.1%;
+    }
+    .p-title {
+        top: 19.5%;
+        font-size: 27px;
+        height: 8%;
+    }
+    .text-context1 {
+        top: 39%;
+        font-size: 20px;
+    }
+    .logoSet{
+        height: 9%;
+        width: 15.3%;
+        margin-left: 43%;
+        top: 5.5%;
+    }
 }
 
 @media screen and (min-width: 550px) and (max-width: 600px) {
@@ -343,6 +407,28 @@ body {
         -webkit-animation: loginDownHigh 500ms;
         animation-fill-mode: forwards;
         -webkit-animation-fill-mode: forwards;
+    }
+
+    .inner-div-final {
+        top: 16.5%;
+        margin-left: 8%;
+        border-width: 5px;
+        height: 68%;
+    }
+    .p-title {
+        top: 12%;
+        font-size: 22px;
+        height: 8%;
+    }
+    .text-context1 {
+        top: 32%;
+        font-size: 13px;
+    }
+    .logoSet{
+        height: 9%;
+        width: 13%;
+        margin-left: 43.5%;
+        top: 5.5%;
     }
 }
 
@@ -363,9 +449,53 @@ body {
         animation-fill-mode: forwards;
         -webkit-animation-fill-mode: forwards;
     }
+
+    .inner-div-final {
+        top: 16.5%;
+        margin-left: 8%;
+        border-width: 5px;
+        height: 68%;
+    }
+    .p-title {
+        top: 12%;
+        font-size: 24px;
+        height: 8%;
+    }
+    .text-context1 {
+        top: 32%;
+        font-size: 15px;
+    }
+    .logoSet{
+        height: 9%;
+        width: 11%;
+        margin-left: 44%;
+        top: 5.5%;
+    }
 }
 
 @media screen and (min-width: 1024px) {
+
+    .inner-div-final {
+        top: 16.5%;
+        margin-left: 8%;
+        border-width: 5px;
+        height: 68%;
+    }
+    .p-title {
+        top: 18%;
+        font-size: 40px;
+        height: 8%;
+    }
+    .text-context1 {
+        top: 37%;
+        font-size: 28px;
+    }
+    .logoSet{
+        height: 9%;
+        width: 11%;
+        margin-left: 44%;
+        top: 5.5%;
+    }
 }
 
 /*================================================================================*/
@@ -390,32 +520,19 @@ body {
 }
 .logoSet{
     position:absolute;
-    height: 10.2%;
-    width: 15.3%;
-    margin-left: 43%;
-    top: 5.5%;
     text-align:center;
 }
 .p-title{
-
-    height: 8%;
     width: 100%;
     margin-left:0;
     position: absolute;
-    top: 21%;
     color: white;
-    font-size: 55px;
     text-align:center;
-    /*line-height: 20px;*/
 }
 .inner-div-final{
     position: absolute;
-    height: 54.1%;
     width: 82%;
-    margin-left: 7.2%;
-    top: 16.5%;
     border: solid;
-    border-width: 10px;
     border-color: white;
 }
 
@@ -424,8 +541,6 @@ body {
     height: 58%;
     width: 100%;
     margin-left: 0;
-    top: 40%;
-    font-size: 45px;
     color: white;
     line-height: 150%;
     text-align:center;
