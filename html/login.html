@@ -19,7 +19,13 @@
             border-width: 0 ;
             outline: none;
         }
-
+        .next-btn{
+                    position: absolute;
+                    height: 10%;
+                    width: 50%;
+                    top: 88%;
+                    left: 26%;
+                }
     </style>
 </head>
 <body>
@@ -59,12 +65,18 @@
             </tbody>
         </table>
     </div>
+    <div class="next-btn" onclick="next()">
 
+    </div>
 </div>
 <script type="application/javascript" src="../js/jquery.min.js"></script>
 <script type="application/javascript" src="../js/common.js"></script>
 <script>
-
+    function next() {
+            if (COMMON.checkName('username') && COMMON.checkPhone('phone') && COMMON.checkMail2('mail')) {
+                alert("next html");
+            }
+        }
 </script>
 </body> 
 </html>
