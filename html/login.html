@@ -36,7 +36,7 @@
                 <td>
                     <div class="inner-div">
                         <label for="username" class="label-long-input">&nbsp;姓名</label>
-                        <input id="username" class="inner-input" type="text"/>
+                        <input id="username" class="inner-input" type="text" onblur="COMMON.checkName('username')"/>
                     </div>
                 </td>
             </tr>
@@ -44,7 +44,7 @@
                 <td>
                     <div class="inner-div">
                         <label for="phone" class="label-long-input">&nbsp;电话</label>
-                        <input id="phone" class="inner-input" type="text"/>
+                        <input id="phone" class="inner-input" type="text" onblur="COMMON.checkPhone('phone')"/>
                     </div>
                 </td>
             </tr>
@@ -52,7 +52,7 @@
                 <td>
                     <div class="inner-div">
                         <label for="mail" class="label-long-input">&nbsp;邮箱</label>
-                        <input id="mail" class="inner-input" type="text"/>
+                        <input id="mail" class="inner-input" type="text" onblur="COMMON.checkMail2('mail')"/>
                     </div>
                 </td>
             </tr>
@@ -61,5 +61,10 @@
     </div>
 
 </div>
-</body>
+<script type="application/javascript" src="../js/jquery.min.js"></script>
+<script type="application/javascript" src="../js/common.js"></script>
+<script>
+
+</script>
+</body> 
 </html>
