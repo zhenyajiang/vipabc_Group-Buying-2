@@ -392,9 +392,13 @@ body {
         margin-left: 30%;
         font-size: 18px;
     }
+    
+    .inner-div {
+        width: 220px;
+    }
 
     .table-box {
-        margin-left: 20%;
+        margin-left: 15%;
 
     }
 
