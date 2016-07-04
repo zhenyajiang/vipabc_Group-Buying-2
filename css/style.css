@@ -23,6 +23,7 @@ body {
 /* 图片默认 */
 .img {
     width: 100%;
+
 }
 
 /* 遮盖层 */
@@ -53,6 +54,18 @@ body {
     left: 2%;
     z-index: 999999;
     font-weight: bold;
+}
+
+.label-long {
+    color: darkgray;
+    display: inline-block;;
+    background-color: #FFFFFF;
+    margin: 0 0 0 0;
+    text-align: center;
+}
+
+.inner-div {
+    background-color: #FFFFFF;
 }
 
 .toastDivWhite {
@@ -93,7 +106,7 @@ body {
     }
 }
 
-@-webkit-keyframes loginUpSmall{
+@-webkit-keyframes loginUpSmall {
     from {
         top: 100%;
     }
@@ -133,7 +146,7 @@ body {
     }
 }
 
-@-webkit-keyframes loginUp{
+@-webkit-keyframes loginUp {
     from {
         top: 100%;
     }
@@ -301,13 +314,11 @@ body {
     outline: none;
 }
 
-/*================================================================================*/
-/*===============================DEVICE SCREEN====================================*/
-/*================================================================================*/
 @media screen and (min-width: 320px) and (max-width: 360px) {
     .login_div {
         height: 50%;
     }
+
     .login-up {
         animation: loginUpSmall 500ms;
         -webkit-animation: loginUpSmall 500ms;
@@ -321,14 +332,13 @@ body {
         animation-fill-mode: forwards;
         -webkit-animation-fill-mode: forwards;
     }
-
     .inner-div-final {
         top: 16.5%;
         margin-left: 7.5%;
         border-width: 5px;
         height: 54.1%;
     }
-    .p-title {
+    .p-title-final {
         top: 19.5%;
         font-size: 20px;
         height: 8%;
@@ -337,21 +347,51 @@ body {
         top: 39%;
         font-size: 13px;
     }
-    .logoSet{
+    .logoSet {
         height: 10.2%;
         width: 15.3%;
         margin-left: 43%;
         top: 5.5%;
     }
+    .title1 {
+        color: white;
+        line-height: 10%;
+        margin-left: 18%;
+        font-size: 18px;
+    }
+
+    .title2 {
+        color: white;
+        line-height: 50%;
+        margin-left: 30%;
+        font-size: 18px;
+    }
+
+    .table-box {
+        margin-left: 15%;
+
+    }
+
+    tr {
+        display: block;
+        margin-top: 5%;
+    }
+
+    .label-long-input {
+        height: 25px;
+        line-height: 25px;
+    }
 }
+
 @media screen and (min-width: 360px) and (max-width: 414px) {
+
     .inner-div-final {
         top: 16.5%;
         margin-left: 8%;
         border-width: 5px;
         height: 54.1%;
     }
-    .p-title {
+    .p-title-final {
         top: 19.5%;
         font-size: 23px;
         height: 8%;
@@ -360,13 +400,42 @@ body {
         top: 39%;
         font-size: 18px;
     }
-    .logoSet{
+    .logoSet {
         height: 9%;
         width: 15.3%;
         margin-left: 43%;
         top: 5.5%;
     }
+    .title1 {
+        color: white;
+        line-height: 10%;
+        margin-left: 25%;
+        font-size: medium;
+    }
+
+    .title2 {
+        color: white;
+        line-height: 100%;
+        margin-left: 34%;
+        font-size: medium;
+    }
+
+    .table-box {
+        margin-left: 17%;
+
+    }
+
+    tr {
+        display: block;
+        margin-top: 5%;
+    }
+
+    .label-long-input {
+        height: 30px;
+        line-height: 30px;
+    }
 }
+
 @media screen and (min-width: 414px) and (max-width: 550px) {
     .inner-div-final {
         top: 16.5%;
@@ -374,7 +443,7 @@ body {
         border-width: 5px;
         height: 54.1%;
     }
-    .p-title {
+    .p-title-final {
         top: 19.5%;
         font-size: 27px;
         height: 8%;
@@ -383,18 +452,84 @@ body {
         top: 39%;
         font-size: 20px;
     }
-    .logoSet{
+    .logoSet {
         height: 9%;
         width: 15.3%;
         margin-left: 43%;
         top: 5.5%;
     }
+    .title1 {
+        color: white;
+        line-height: 10%;
+        margin-left: 22%;
+        font-size: 20px;
+    }
+
+    .title2 {
+        color: white;
+        line-height: 100%;
+        margin-left: 33%;
+        font-size: 20px;
+    }
+
+    .table-box {
+        margin-left: 16%;
+
+    }
+
+    tr {
+        display: block;
+        margin-top: 5%;
+    }
+
+    .label-long-input {
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .inner-div {
+        width: 280px;
+    }
 }
 
 @media screen and (min-width: 550px) and (max-width: 600px) {
+    .title1 {
+        color: white;
+        line-height: 10%;
+        margin-left: 32%;
+        font-size: medium;
+    }
+
+    .title2 {
+        color: white;
+        line-height: 100%;
+        margin-left: 40%;
+        font-size: medium;
+    }
+
+    .table-box {
+        margin-left: 25%;
+
+    }
+
+    tr {
+        display: block;
+        margin-top: 9%;
+    }
+
+    .label-long-input {
+        height: 35px;
+        line-height: 35px;
+    }
+
+    .inner-div {
+        width: 280px;
+    }
+
     .login_div {
         height: 80%;
     }
+
     .login-up {
         animation: loginUpHigh 500ms;
         -webkit-animation: loginUpHigh 500ms;
@@ -415,7 +550,7 @@ body {
         border-width: 5px;
         height: 68%;
     }
-    .p-title {
+    .p-title-final {
         top: 12%;
         font-size: 22px;
         height: 8%;
@@ -433,9 +568,48 @@ body {
 }
 
 @media screen and (min-width: 600px) {
+    .title1 {
+        color: white;
+        line-height: 10%;
+        margin-left: 30%;
+        font-size: 25px;
+    }
+
+    .title2 {
+        color: white;
+        line-height: 100%;
+        margin-left: 38%;
+        font-size: 25px;
+    }
+
+    .table-box {
+        margin-left: 19%;
+
+    }
+
+    tr {
+        display: block;
+        margin-top: 10%;
+    }
+
+    .label-long-input {
+        font-size: 25px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    input {
+        font-size: 25px;
+    }
+
+    .inner-div {
+        width: 430px;
+    }
+
     .login_div {
         height: 80%;
     }
+
     .login-up {
         animation: loginUpHigh 500ms;
         -webkit-animation: loginUpHigh 500ms;
@@ -456,7 +630,7 @@ body {
         border-width: 5px;
         height: 68%;
     }
-    .p-title {
+    .p-title-final {
         top: 12%;
         font-size: 24px;
         height: 8%;
@@ -481,7 +655,7 @@ body {
         border-width: 5px;
         height: 68%;
     }
-    .p-title {
+    .p-title-final {
         top: 18%;
         font-size: 40px;
         height: 8%;
@@ -498,9 +672,8 @@ body {
     }
 }
 
-/*================================================================================*/
-.img-final{
-    position:absolute;
+.img-final {
+    position: absolute;
     top: 0px;
     left: 0px;
     right: 0px;
@@ -508,9 +681,9 @@ body {
     width: 100%;
 }
 
-.backgroundSet{
-    position:fixed;
-    background-color: rgba(0,0,0,0.8);
+.backgroundSet {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
     top: 0px;
     left: 0px;
     width: 100%;
@@ -522,13 +695,27 @@ body {
     position:absolute;
     text-align:center;
 }
-.p-title{
+.p-title-final{
     width: 100%;
     margin-left:0;
     position: absolute;
     color: white;
     text-align:center;
 }
+
+.p-title {
+
+    height: 8%;
+
+    width: 100%;
+    margin-left: 0;
+    position: absolute;
+    color: white;
+    font-size: 55px;
+    text-align: center;
+    /*line-height: 20px;*/
+}
+
 .inner-div-final{
     position: absolute;
     width: 82%;
