@@ -870,6 +870,7 @@ body {
     position: absolute;
     color: white;
     text-align:center;
+    font-family: 'Microsoft YaHei';
 }
 .text-context1{
     width: 100%;
@@ -877,6 +878,9 @@ body {
     position: absolute;
     color: white;
     text-align:center;
+    letter-spacing: 0.13em;
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Microsoft YaHei';
 }
 .text-context2{
     width: 100%;
@@ -884,7 +888,9 @@ body {
     position: absolute;
     color: white;
     text-align:center;
+    letter-spacing: 0.1em;
     -webkit-text-size-adjust: 100%;
+    font-family: 'Microsoft YaHei';
 }
 .text-context3{
     width: 100%;
@@ -893,6 +899,7 @@ body {
     color: white;
     text-align:center;
     -webkit-text-size-adjust: 100%;
+    font-family: 'Microsoft YaHei';
 }
 .text-context4{
     width: 100%;
@@ -901,6 +908,7 @@ body {
     color: white;
     text-align:center;
     -webkit-text-size-adjust: 100%;
+    font-family: 'Microsoft YaHei';
 }
 .text-context5{
     width: 100%;
@@ -909,6 +917,7 @@ body {
     color: white;
     text-align:center;
     -webkit-text-size-adjust: 100%;
+    font-family: 'Microsoft YaHei';
 }
 /*.logoSet{*/
     /*position:absolute;*/
