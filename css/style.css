@@ -704,16 +704,14 @@ body {
 }
 
 .p-title {
-
     height: 8%;
-
     width: 100%;
     margin-left: 0;
     position: absolute;
+    top: 21%;
     color: white;
     font-size: 55px;
     text-align: center;
-    /*line-height: 20px;*/
 }
 
 .inner-div-final{
