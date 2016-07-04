@@ -680,6 +680,7 @@ body {
         color: white;
         line-height: 100%;
         margin-left: 38%;
+        margin-bottom: 2%;
         font-size: 25px;
     }
 
@@ -690,7 +691,7 @@ body {
 
     tr {
         display: block;
-        margin-top: 10%;
+        margin-top: 5%;
     }
 
     .label-long-input {
