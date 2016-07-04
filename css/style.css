@@ -414,6 +414,84 @@ body {
     }
 }
 
+@media screen and (min-width: 360px) and (max-width: 370px) {
+
+    .inner-div-final {
+        top: 16.5%;
+        border-width: 5px;
+        height: 54.1%;
+    }
+    .p-title-final {
+        top: 17%;
+        font-size: 23px;
+        height: 8%;
+    }
+
+    .text-context1 {
+        top: 35%;
+        font-size: 16px;
+        height: 8%;
+    }
+    .text-context2 {
+        top: 43%;
+        font-size: 16px;
+        height: 8%;
+    }
+    .text-context3 {
+        top: 52%;
+        font-size: 16px;
+        height: 8%;
+    }
+    .text-context4 {
+        top: 68%;
+        font-size: 16px;
+        height: 8%;
+    }
+    .text-context5 {
+        top: 84%;
+        font-size: 16px;
+        height: 8%;
+    }
+    .logoSet {
+        height: 9%;
+        width: 15.3%;
+        margin-left: 43%;
+        top: 5.5%;
+    }
+    .title1 {
+        color: white;
+        line-height: 10%;
+        margin-left: 25%;
+        font-size: medium;
+    }
+
+    .title2 {
+        color: white;
+        line-height: 100%;
+        margin-left: 34%;
+        margin-bottom: 3%;
+        font-size: medium;
+    }
+
+    .table-box {
+        margin-left: 14%;
+
+    }
+
+    tr {
+        display: block;
+        margin-top: 3%;
+    }
+
+    .label-long-input {
+        height: 30px;
+        line-height: 33px;
+    }
+    .inner-div {
+        width: 260px;
+    }
+}
+
 @media screen and (min-width: 360px) and (max-width: 414px) {
 
     .inner-div-final {
