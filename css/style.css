@@ -333,26 +333,52 @@ body {
         -webkit-animation-fill-mode: forwards;
     }
     .inner-div-final {
-        top: 16.5%;
-        margin-left: 7.5%;
+        top: 14%;
         border-width: 5px;
-        height: 54.1%;
+        height: 55%;
+    }
+    .logoSet {
+        height: 9%;
+        width: 15.3%;
+        margin-left: 43%;
+        top: 5%;
     }
     .p-title-final {
-        top: 19.5%;
-        font-size: 20px;
+        top: 15%;
+        font-size: 17px;
         height: 8%;
     }
     .text-context1 {
-        top: 39%;
-        font-size: 13px;
+        top: 30%;
+        font-size: 14px;
+        height: 7%;
+        /*background-color: red;*/
     }
-    .logoSet {
-        height: 10.2%;
-        width: 15.3%;
-        margin-left: 43%;
-        top: 5.5%;
+    .text-context2 {
+        top: 37%;
+        font-size: 14px;
+        height: 7%;
+        /*background-color: blue;*/
     }
+    .text-context3 {
+        top: 44%;
+        font-size: 14px;
+        height: 7%;
+        /*background-color: orange;*/
+    }
+    .text-context4 {
+        top: 58%;
+        font-size: 14px;
+        height: 7%;
+        /*background-color: red;*/
+    }
+    .text-context5 {
+        top: 72%;
+        font-size: 14px;
+        height: 7%;
+        /*background-color: gray;*/
+    }
+
     .title1 {
         color: white;
         line-height: 10%;
@@ -387,18 +413,39 @@ body {
 
     .inner-div-final {
         top: 16.5%;
-        margin-left: 8%;
         border-width: 5px;
         height: 54.1%;
     }
     .p-title-final {
-        top: 19.5%;
+        top: 17%;
         font-size: 23px;
         height: 8%;
     }
+
     .text-context1 {
-        top: 39%;
-        font-size: 18px;
+         top: 35%;
+         font-size: 16px;
+         height: 8%;
+     }
+    .text-context2 {
+        top: 43%;
+        font-size: 16px;
+        height: 8%;
+    }
+    .text-context3 {
+        top: 52%;
+        font-size: 16px;
+        height: 8%;
+    }
+    .text-context4 {
+        top: 68%;
+        font-size: 16px;
+        height: 8%;
+    }
+    .text-context5 {
+        top: 84%;
+        font-size: 16px;
+        height: 8%;
     }
     .logoSet {
         height: 9%;
@@ -439,21 +486,42 @@ body {
 @media screen and (min-width: 414px) and (max-width: 550px) {
     .inner-div-final {
         top: 16.5%;
-        margin-left: 8%;
         border-width: 5px;
-        height: 54.1%;
+        height: 65%;
     }
     .p-title-final {
-        top: 19.5%;
-        font-size: 27px;
+        top: 13%;
+        font-size: 25px;
         height: 8%;
     }
     .text-context1 {
-        top: 39%;
+        top: 28%;
         font-size: 20px;
+        height: 10%;
     }
+    .text-context2 {
+        top: 38%;
+        font-size: 20px;
+        height: 10%;
+    }
+    .text-context3 {
+        top: 48%;
+        font-size: 20px;
+        height: 10%;
+    }
+    .text-context4 {
+        top: 65%;
+        font-size: 20px;
+        height: 10%;
+    }
+    .text-context5 {
+        top: 83%;
+        font-size: 20px;
+        height: 10%;
+    }
+
     .logoSet {
-        height: 9%;
+        height: 7%;
         width: 15.3%;
         margin-left: 43%;
         top: 5.5%;
@@ -546,19 +614,41 @@ body {
 
     .inner-div-final {
         top: 16.5%;
-        margin-left: 8%;
         border-width: 5px;
-        height: 68%;
+        height: 70%;
     }
     .p-title-final {
-        top: 12%;
-        font-size: 22px;
+        top: 14%;
+        font-size: 16px;
         height: 8%;
     }
+
     .text-context1 {
-        top: 32%;
+        top: 30%;
         font-size: 13px;
+        height: 7%;
     }
+    .text-context2 {
+        top: 37%;
+        font-size: 13px;
+        height: 7%;
+    }
+    .text-context3 {
+        top: 44%;
+        font-size: 13px;
+        height: 7%;
+    }
+    .text-context4 {
+        top: 58%;
+        font-size: 13px;
+        height: 7%;
+    }
+    .text-context5 {
+        top: 72%;
+        font-size: 13px;
+        height: 7%;
+    }
+
     .logoSet{
         height: 9%;
         width: 13%;
@@ -626,19 +716,42 @@ body {
 
     .inner-div-final {
         top: 16.5%;
-        margin-left: 8%;
         border-width: 5px;
-        height: 68%;
+        height: 70%;
     }
     .p-title-final {
         top: 12%;
-        font-size: 24px;
+        font-size: 18px;
         height: 8%;
     }
+
     .text-context1 {
-        top: 32%;
-        font-size: 15px;
+        top: 29%;
+        font-size: 14px;
+        height: 7%;
     }
+    .text-context2 {
+        top: 36%;
+        font-size: 14px;
+        height: 7%;
+    }
+    .text-context3 {
+        top: 43%;
+        font-size: 14px;
+        height: 7%;
+    }
+    .text-context4 {
+        top: 57%;
+        font-size: 14px;
+        height: 7%;
+    }
+    .text-context5 {
+        top: 71%;
+        font-size: 14px;
+        height: 7%;
+    }
+
+
     .logoSet{
         height: 9%;
         width: 11%;
@@ -651,7 +764,6 @@ body {
 
     .inner-div-final {
         top: 16.5%;
-        margin-left: 8%;
         border-width: 5px;
         height: 68%;
     }
@@ -660,10 +772,33 @@ body {
         font-size: 40px;
         height: 8%;
     }
+
     .text-context1 {
         top: 37%;
         font-size: 28px;
+        height: 8%;
     }
+    .text-context2 {
+        top: 45%;
+        font-size: 28px;
+        height: 8%;
+    }
+    .text-context3 {
+        top: 53%;
+        font-size: 28px;
+        height: 8%;
+    }
+    .text-context4 {
+        top: 67%;
+        font-size: 28px;
+        height: 8%;
+    }
+    .text-context5 {
+        top: 80%;
+        font-size: 28px;
+        height: 8%;
+    }
+
     .logoSet{
         height: 9%;
         width: 11%;
@@ -674,33 +809,22 @@ body {
 
 .img-final {
     position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     width: 100%;
 }
 
 .backgroundSet {
     position: fixed;
     background-color: rgba(0, 0, 0, 0.8);
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     display: inline;
     z-index: 3;
-}
-.logoSet{
-    position:absolute;
-    text-align:center;
-}
-.p-title-final{
-    width: 100%;
-    margin-left:0;
-    position: absolute;
-    color: white;
-    text-align:center;
 }
 
 .p-title {
@@ -714,19 +838,92 @@ body {
     text-align: center;
 }
 
+.logoSet{
+    position:absolute;
+    text-align:center;
+}
+
+
 .inner-div-final{
-    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
     width: 82%;
     border: solid;
     border-color: white;
 }
-
-.text-context1{
-    position: absolute;
-    height: 58%;
+.p-title-final{
     width: 100%;
-    margin-left: 0;
+    margin-left:0;
+    position: absolute;
     color: white;
-    line-height: 150%;
     text-align:center;
 }
+.text-context1{
+    width: 100%;
+    margin-left:0;
+    position: absolute;
+    color: white;
+    text-align:center;
+}
+.text-context2{
+    width: 100%;
+    margin-left:0;
+    position: absolute;
+    color: white;
+    text-align:center;
+    -webkit-text-size-adjust: 100%;
+}
+.text-context3{
+    width: 100%;
+    margin-left:0;
+    position: absolute;
+    color: white;
+    text-align:center;
+    -webkit-text-size-adjust: 100%;
+}
+.text-context4{
+    width: 100%;
+    margin-left:0;
+    position: absolute;
+    color: white;
+    text-align:center;
+    -webkit-text-size-adjust: 100%;
+}
+.text-context5{
+    width: 100%;
+    margin-left:0;
+    position: absolute;
+    color: white;
+    text-align:center;
+    -webkit-text-size-adjust: 100%;
+}
+/*.logoSet{*/
+    /*position:absolute;*/
+    /*text-align:center;*/
+/*}*/
+/*.p-title-final{*/
+    /*width: 100%;*/
+    /*margin-left:0;*/
+    /*position: absolute;*/
+    /*color: white;*/
+    /*text-align:center;*/
+/*}*/
+
+/*.inner-div-final{*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*position: relative;*/
+    /*width: 82%;*/
+    /*border: solid;*/
+    /*border-color: white;*/
+/*}*/
+
+/*.text-context1{*/
+    /*position: relative;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*color: white;*/
+    /*text-align:center;*/
+    /*!*padding: 10px 10px 10px 10px;*!*/
+/*}*/
