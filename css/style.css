@@ -474,18 +474,18 @@ body {
     }
 
     .table-box {
-        margin-left: 15%;
+        margin-left: 14%;
 
     }
 
     tr {
         display: block;
-        margin-top: 5%;
+        margin-top: 3%;
     }
 
     .label-long-input {
         height: 30px;
-        line-height: 30px;
+        line-height: 33px;
     }
     .inner-div {
         width: 260px;
