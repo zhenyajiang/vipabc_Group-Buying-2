@@ -56,6 +56,22 @@ body {
     font-weight: bold;
 }
 
+.toastDiv2 {
+    width: 96%;
+    min-width: 150px;
+    background: #000;
+    height: 30px;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    position: fixed;
+    top: 8%;
+    left: 2%;
+    z-index: 999999;
+    font-weight: bold;
+}
+
 .label-long {
     color: darkgray;
     display: inline-block;;
